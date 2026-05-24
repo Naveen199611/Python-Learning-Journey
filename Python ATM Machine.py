@@ -27,14 +27,14 @@ def withdrawl():
     if withdrawl_amount<balance:
         balance-=withdrawl_amount
         transaction_history.append(f"{withdrawl_amount} is withdrawn")
-        print(f"{withdrawl_amount} is successfully withdrawn, \nyour updated balance {balance}")
+        print(f"{withdrawl_amount} is successfully withdrawn, \nyour updated balance is: {balance}")
     else:
         print("your balance is insufficient")
 def transactions():
     if transaction_history==0:
         print("no transactions yet!")
     else:
-        print("\ntransaction_history")
+        print("\nTransaction History:")
         for transaction in transaction_history:
             print(transaction)
 while True:
