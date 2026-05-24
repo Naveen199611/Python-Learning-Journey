@@ -17,17 +17,17 @@ def balance_enquiry():
     print(f"your current balance is: {balance}")
 def desposit():
     global balance
-    deposit_amount=int(input("enter your amount"))
+    deposit_amount=int(input("enter your amount: "))
     balance+=deposit_amount
     transaction_history.append(f"{deposit_amount} is successfully deposited")
     print(f"Your Updated Balance is: {balance}")
 def withdrawl():
     global balance
-    withdrawl_amount=int(input("enter withdrawl amount"))
+    withdrawl_amount=int(input("enter withdrawl amount: "))
     if withdrawl_amount<balance:
         balance-=withdrawl_amount
         transaction_history.append(f"{withdrawl_amount} is withdrawn")
-        print(f"{withdrawl_amount} is successfully withdrawn, your updated balance {balance}")
+        print(f"{withdrawl_amount} is successfully withdrawn, \nyour updated balance {balance}")
     else:
         print("your balance is insufficient")
 def transactions():
@@ -36,7 +36,7 @@ def transactions():
     else:
         print("\ntransaction_history")
         for transaction in transaction_history:
-        print(transaction)
+            print(transaction)
 while True:
     print("-----Select your choice------")
     print("-----Select 1 for balance_enquiry------")
