@@ -34,7 +34,9 @@ def transactions():
     if transaction_history==0:
         print("no transactions yet!")
     else:
-        print(transaction_history)
+        print("\ntransaction_history")
+        for transaction in transaction_history:
+        print(transaction)
 while True:
     print("-----Select your choice------")
     print("-----Select 1 for balance_enquiry------")
