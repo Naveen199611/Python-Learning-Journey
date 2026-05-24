@@ -46,7 +46,6 @@ while True:
     enter_your_choice=int(input("enter your choice: "))
     if enter_your_choice==1:
         balance_enquiry()
-        break
     elif enter_your_choice==2:
         desposit()
     elif enter_your_choice==3:
