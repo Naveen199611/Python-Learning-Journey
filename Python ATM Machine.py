@@ -17,7 +17,7 @@ def balance_enquiry():
     print(f"your current balance is: {balance}")
 def desposit():
     global balance
-    deposit_amount=int(input("enter your amount: "))
+    deposit_amount=int(input("enter your deposit amount: "))
     balance+=deposit_amount
     transaction_history.append(f"{deposit_amount} is successfully deposited")
     print(f"Your Updated Balance is: {balance}")
@@ -37,6 +37,7 @@ def transactions():
         print("\nTransaction History:")
         for transaction in transaction_history:
             print(transaction)
+        print(f"Your Current Balance is: {balance}")
 while True:
     print("-----Select your choice------")
     print("-----Select 1 for balance_enquiry------")
