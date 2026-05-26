@@ -14,21 +14,12 @@ while True:
         print("----------------------------------")
         print("It's tie")
         print("----------------------------------")
-    elif user_input=="rock" and computer=="scissors":
+    elif ((user_input=="rock" and computer=="scissors") or 
+        (user_input=="paper" and computer=="rock") or 
+        (user_input=="scissors" and computer=="paper")):
         print("----------------------------------")
         print("You Win!")
         print("----------------------------------")
-        user_score+=1
-    elif user_input=="paper" and computer=="rock":
-        print("----------------------------------")
-        print("You Win!")
-        print("----------------------------------")
-        user_score+=1
-    elif user_input=="scissors" and computer=="paper":
-        print("----------------------------------")
-        print("You Win!")
-        print("----------------------------------")
-
         user_score+=1
     else:
         print("You Lost, Better Luck Next Time!")
