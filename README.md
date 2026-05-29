@@ -6,6 +6,24 @@ After 7+ years of experience in content writing, digital marketing, and AI-drive
 
 This repository documents my hands-on learning journey as I transition from content creation to software development and AI-focused technology. Every project here represents a new concept learned, a challenge overcome, and a step toward building stronger technical skills.
 
+## ⭐ Featured Project
+
+### 🏧 ATM Machine
+
+A console-based ATM simulation that allows users to:
+
+- Check account balance
+- Deposit money
+- Withdraw money
+- Exit the application
+
+Concepts Used:
+- Functions
+- Loops
+- Conditional Statements
+- User Input Handling
+
+  
 ## 🎯 My Goal
 
 - Build a strong foundation in Python programming
