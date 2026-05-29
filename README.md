@@ -28,6 +28,35 @@ This repository documents my hands-on learning journey as I transition from cont
 | 📦 Product Stock Checker | Conditions, Inventory Logic |
 | ⏳ Countdown Timer | Loops and Time-Based Logic |
 
+## 📖 Project Details
+
+### 🎮 Number Guessing Game
+A game where the user tries to guess a randomly generated number with hints provided after each attempt.
+
+### ✂️ Rock Paper Scissors
+A classic Rock-Paper-Scissors game where the user competes against the computer.
+
+### 🎰 Slot Machine
+A betting-based slot machine game that uses random symbols and payout logic.
+
+### 🏧 ATM Machine
+A console-based ATM simulation that allows users to check balance, deposit, and withdraw money.
+
+### 🧮 Basic Calculator
+A simple calculator that performs basic arithmetic operations.
+
+### 💰 Bill Calculator
+Calculates the total bill amount based on user inputs.
+
+### 🛒 Product Price Calculator
+Calculates product costs and totals based on quantity and price.
+
+### 📦 Product Stock Checker
+Checks product availability based on stock levels.
+
+### ⏳ Countdown Timer
+A timer that counts down from a specified duration.
+
 ## 🌱 Learning Philosophy
 
 I believe the best way to learn programming is by building projects. Instead of focusing only on theory, I prefer applying concepts through practical exercises and real-world applications.
