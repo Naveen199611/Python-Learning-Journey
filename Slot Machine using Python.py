@@ -1,11 +1,8 @@
 import random
-
 balance = 100
-
 symbols = ["🎃", "🎇", "👌", "👎"]
-
 print("🎰 ----- Welcome to Python Slot Machine ----- 🎰")
-print(f"💰 Your Available Balance is: ₹{balance}")
+print(f"Your Available Balance is: ₹{balance}")
 
 while balance > 0:
 
