@@ -6,6 +6,12 @@ After 7+ years of experience in content writing, digital marketing, and AI-drive
 
 This repository documents my hands-on learning journey as I transition from content creation to software development and AI-focused technology. Every project here represents a new concept learned, a challenge overcome, and a step toward building stronger technical skills.
 
+**Youtube Channel: AI Growth Library**
+
+📺 A complete line-by-line walkthrough of these projects is available on my YouTube channel, AI Growth Library.
+
+🔗 YouTube Channel: https://www.youtube.com/@AIGrowthLibrary
+
 ## ⭐ Featured Project
 
 ### 🏧 ATM Machine
