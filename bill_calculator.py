@@ -1,3 +1,5 @@
+#Python Bill Calculator 
+
 prices= input("enter product prices seperated by comma: ")
 product_prices= prices.split(",")
 final_bill= 0
