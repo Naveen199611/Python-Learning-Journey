@@ -14,23 +14,19 @@ This repository documents my hands-on learning journey as I transition from cont
 
 ⭐ **Latest Project Added:** 🔐 Password Generator — Generates secure passwords and stores them automatically using Python file handling.
 
-## ⭐ Featured Project
+### 🌟 Featured Project: File Organizer
 
-### 🏧 ATM Machine
+A Python script that automatically organizes files into folders such as **Images, Videos, Documents, Music, Archives,** and **Softwares** based on their file extensions. It uses the `os` and `shutil` modules to scan a directory, create folders when needed, and move files efficiently.
 
-A console-based ATM simulation that allows users to:
+**Key concepts practiced:**
 
-* Check account balance
-* Deposit money
-* Withdraw money
-* Exit the application
+* File and folder handling
+* Dictionary-based categorization
+* `os.listdir()`, `os.path.join()`, and `os.path.splitext()`
+* `os.makedirs()`
+* `shutil.move()`
+* Loops and conditional statements
 
-Concepts Used:
-
-* Functions
-* Loops
-* Conditional Statements
-* User Input Handling
 
 ## 🎯 My Goal
 
@@ -44,6 +40,7 @@ Concepts Used:
 
 | Project                     | Concepts Practiced                                     |
 | --------------------------- | ------------------------------------------------------ |
+| 📂 File Organizer           | File Handling, os, shutil, Dictionaries, Automation     |
 | 🎮 Number Guessing Game     | Loops, Conditions, Random Module                       |
 | ✂️ Rock Paper Scissors      | User Input, Conditional Logic                          |
 | 🎰 Slot Machine             | Lists, Randomization, Game Logic                       |
@@ -56,6 +53,10 @@ Concepts Used:
 | 🔐 Password Generator       | Functions, Random Module, String Module, File Handling |
 
 ## 📖 Project Details
+
+**📂 File Organizer**
+
+A Python automation script that scans a selected folder and organizes files into categories such as Images, Videos, Documents, Music, Archives, and Softwares based on their file extensions. It uses the os and shutil modules to create folders automatically and move files to their appropriate locations.
 
 ### 🔐 Password Generator
 
